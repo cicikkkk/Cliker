@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.game {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+button {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#click-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+#click-button:hover {
+  background-color: #45a049;
+}
+
+#reset-button {
+  background-color: #f44336;
+  color: white;
+}
+
+#reset-button:hover {
+  background-color: #da190b;
+}
